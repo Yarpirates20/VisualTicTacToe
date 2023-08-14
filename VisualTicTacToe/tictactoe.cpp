@@ -8,8 +8,8 @@ int main()
 {
 	Game game;
 	Board newBoard;
-
-	game.run();
+	newBoard.renderBoard(newBoard.getBoard());
+	//game.run();
 
 	/*cout << newBoard.getBoard().size();
 	cout << newBoard.getBoard()[0].size();*/

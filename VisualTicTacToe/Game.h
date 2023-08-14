@@ -8,8 +8,8 @@ private:
 
 	
 
-	sf::RenderWindow mWindow;
-	sf::CircleShape mPlayer;
+	sf::RenderWindow m_window;
+	sf::CircleShape m_player;
 
 public:
 	Game();
