@@ -23,8 +23,16 @@ void Game::processEvents()
 
 void Game::render()
 {
+	/*sf::Texture texture;
+	if (!texture.loadFromFile("C:\\Users\\rsamo\\source\\repos\\VisualTicTacToe\\VisualTicTacToe\\simple.png"))
+	{
+		return;
+	}
+	sf::Sprite sprite(texture);
+	*/
+
 	mWindow.clear();
-	mWindow.draw(mPlayer);
+	//mWindow.draw(sprite);
 	mWindow.display();
 }
 

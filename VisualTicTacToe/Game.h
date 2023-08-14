@@ -6,6 +6,8 @@ private:
 	void update();
 	void render();
 
+	
+
 	sf::RenderWindow mWindow;
 	sf::CircleShape mPlayer;
 

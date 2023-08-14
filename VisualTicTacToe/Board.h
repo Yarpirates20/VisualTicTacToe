@@ -10,6 +10,6 @@ private:
 public:
 	Board();
 	std::vector<std::vector<char>> getBoard();
-	void render();
+	void renderBoard(std::vector<std::vector<char>> inBoard);
 };
 
