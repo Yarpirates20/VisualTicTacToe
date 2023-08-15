@@ -1,18 +1,21 @@
 #pragma once
+#include "Window.h"
 class Game
 {
-private:
-	void processEvents();
-	void update();
-	void render();
-
-	
-
-	sf::RenderWindow m_window;
-	sf::CircleShape m_player;
-
 public:
 	Game();
-	void run();
+	~Game();
+
+	void handleInput();
+	void update();
+	void render();
+	Window* getWindow();
+
+private:
+	void drawX();
+	Window m_window;
+	sf::Texture m_xText;
+	sf::Sprite m_xMark;
+	sf::Vector2i m_increment;
 };
 
