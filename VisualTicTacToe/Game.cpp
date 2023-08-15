@@ -34,10 +34,8 @@ void Game::render()
 	m_window.endDraw();		// Display
 }
 
-Window* Game::getWindow()
-{
-	return nullptr;
-}
+
+
 
 void Game::drawX()
 {

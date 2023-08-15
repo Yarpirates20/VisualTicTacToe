@@ -9,7 +9,7 @@ public:
 	void handleInput();
 	void update();
 	void render();
-	Window* getWindow();
+	//Window* GetWindow();
 
 private:
 	void drawX();

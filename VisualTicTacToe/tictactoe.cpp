@@ -9,13 +9,13 @@ int main()
 {
 	// Create game object
 	Game game;
-	while (!game.getWindow()->isDone())
-	{
+	//while (!game.getWindow()->isDone())
+	//{
 		// Game loop
-		game.handleInput();
+		//game.handleInput();
 		game.update();
 		game.render();
-	}
+	//}
 	//Board newBoard;
 	//newBoard.renderBoard(newBoard.getBoard());
 	//game.run();
